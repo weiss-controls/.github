@@ -1,33 +1,28 @@
 # WEISS – Web EPICS Interface & Synoptic Studio
 
-**WEISS** is a no-code, drag-and-drop tool for creating EPICS web operation interfaces.  
-The goal is to make EPICS user interfaces simpler to build and especially easier to deploy and maintain.
+WEISS is a no-code, drag-and-drop system for building web-based EPICS operation interfaces. It
+provides a responsive editor, live PV communication (read and write), git-based version control and
+a lightweight deployment model.
 
-Try the live demo: https://demo.weiss-controls.org.
+|                             Live demo                              |                           Documentation                            |                               Planned features                                |
+| :----------------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+| [https://demo.weiss-controls.org](https://demo.weiss-controls.org) | [https://docs.weiss-controls.org](https://docs.weiss-controls.org) | [GitHub Project Dashboard](https://github.com/orgs/weiss-controls/projects/1) |
 
-> The demo connects to a real IOC. For the demo, all edits stay in your browser only. Use **Load Demo** anytime to restore.
+![WEISS UI](https://raw.githubusercontent.com/weiss-controls/weiss/main/docs/src/_static/example.svg)
 
-To install or self-host, visit the main repository:
+---
 
-➡️ https://github.com/weiss-controls/weiss
+## Licensing Terms
 
-Follow the "Getting Started" section in the project README.
+Copyright (C) 2026 André Favoto
 
-Project roadmap and planned improvements:
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
 
-➡️ https://github.com/orgs/weiss-controls/projects/1
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
 
-## Why use a web app?
-
-- **Client-side rendering** keeps backend load low.
-- **Easy access** from any modern browser - no remote desktops or local GUIs needed.
-- **Scales naturally** to many simultaneous users.
-- **Large ecosystem** of tools, libraries, and best practices.
-- **Simple and known integration** with authentication, CI/CD, among others.
-
-## Contributing
-
-Issues, feature suggestions and contributions are welcome.
-Access the [Project Roadmap](https://github.com/orgs/weiss-controls/projects/1) or [WEISS Issues](https://github.com/weiss-controls/weiss/issues) to take some inspiration.
-
-How-to guides are coming soon!
+You should have received a copy of the GNU General Public License along with this program. If not,
+see <https://www.gnu.org/licenses/>.
